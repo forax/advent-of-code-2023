@@ -1,5 +1,5 @@
 # advent-of-code-2023
-Let's try to do the advent of code 2023 in Java.
+Let's try to do the advent of code 2023 in Java 21
 
 It's not the first time I tried, but this year, I will try to complete it,
 but I will only do the first part of each challenge in hope it wil not take too much time.
