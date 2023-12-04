@@ -6,11 +6,12 @@ I will only do the first part of each challenge in hope it wil not take too much
 
 Each code is contained in one file, by example for the day 1, you can just run
 ```bash
-java src/main/java/AdventOfCode1.java
+java src/main/java/AdventOfCode01.java
 ```
 
-- [Day 1](https://adventofcode.com/2023/day/1) [AdventOfCode1.java](src/main/java/AdventOfCode1.java)
-- [Day 2](https://adventofcode.com/2023/day/1) [AdventOfCode2.java](src/main/java/AdventOfCode2.java)
+- [Day 1](https://adventofcode.com/2023/day/1) [AdventOfCode01.java](src/main/java/AdventOfCode01.java)
+- [Day 2](https://adventofcode.com/2023/day/2) [AdventOfCode02.java](src/main/java/AdventOfCode02.java)
+- [Day 3](https://adventofcode.com/2023/day/3) [AdventOfCode03.java](src/main/java/AdventOfCode03.java)
 
 Each code will be published the day after.
 

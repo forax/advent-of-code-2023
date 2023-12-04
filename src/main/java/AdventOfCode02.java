@@ -5,7 +5,7 @@ import static java.lang.Integer.parseInt;
 import static java.util.regex.Pattern.compile;
 import static java.util.stream.IntStream.range;
 
-public class AdventOfCode2 {
+public class AdventOfCode02 {
   private static final Pattern PATTERN = compile("(?:Game ([0-9]+))|(?:([0-9]+) red)|(?:([0-9]+) green)|(?:([0-9]+) blue)|(;)");
 
   static int sumOfGameId(String text, int expectedRed, int expectedGreen, int expectedBlue) {

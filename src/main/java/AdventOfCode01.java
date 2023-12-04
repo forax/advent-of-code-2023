@@ -1,4 +1,4 @@
-public class AdventOfCode1 {
+public class AdventOfCode01 {
   public static void main(String[] args) {
     var text = """
         1abc2
