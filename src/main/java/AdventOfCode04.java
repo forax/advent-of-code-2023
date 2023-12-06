@@ -16,7 +16,7 @@ public class AdventOfCode04 {
                 case "|" -> { state.action = v -> winnings.contains(v) ? 1 : 0; yield 0; }
                 case String token -> state.action.applyAsInt(parseInt(token));
               })
-              .reduce(0, (v1, v2) -> v1 == 0 && v2 == 1 ? 2 : v1 + v2);
+              .reduce(0, (v1, v2) -> v2 == 0 ? v1 : (v1 == 0) ? 1 : v1 * 2);
         })
         .sum();
   }
