@@ -22,7 +22,8 @@ public class AdventOfCode05 {
         .collect(toMap(Recipe::from, r -> r, (_1, _2) -> null, LinkedHashMap::new));
     for(var category = "seed"; !category.equals("location");) {
       var recipe = recipeMap.get(category);
-      var end = recipeMap.values().stream().dropWhile(r -> r != recipe).skip(1).mapToInt(Recipe::location).findFirst().orElseGet(input::length);
+      var end = recipeMap.values().stream()
+          .dropWhile(r -> r != recipe).skip(1).mapToInt(Recipe::location).findFirst().orElseGet(input::length);
       var translations = TRANSLATION.matcher(input).region(recipe.location, end).results()
           .<IntFunction<Optional<Integer>>>map(result -> {
             var destination = parseInt(result.group(1));
