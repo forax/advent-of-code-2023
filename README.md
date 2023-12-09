@@ -14,6 +14,9 @@ java src/main/java/AdventOfCode01.java
 - [Day 3](https://adventofcode.com/2023/day/3) [AdventOfCode03.java](src/main/java/AdventOfCode03.java)
 - [Day 4](https://adventofcode.com/2023/day/4) [AdventOfCode04.java](src/main/java/AdventOfCode04.java)
 - [Day 5](https://adventofcode.com/2023/day/5) [AdventOfCode05.java](src/main/java/AdventOfCode05.java)
+- [Day 6](https://adventofcode.com/2023/day/6) [AdventOfCode06.java](src/main/java/AdventOfCode06.java)
+- [Day 7](https://adventofcode.com/2023/day/7) [AdventOfCode07.java](src/main/java/AdventOfCode07.java)
+- [Day 8](https://adventofcode.com/2023/day/8) [AdventOfCode08.java](src/main/java/AdventOfCode08.java)
 
 Each code will be published the day after.
 
