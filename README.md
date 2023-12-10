@@ -1,10 +1,10 @@
 # advent-of-code-2023
 Let's try to do the advent of code 2023 in Java 21
 
-It's not the first time I tried, but I never complete one, so this year in order to ty to complete it,
+It's not the first time I tried to do an advent of code, but I never completed one, so this year in order to ty to complete it,
 I will only do the first part of each challenge in hope it wil not take too much time.
 
-Each code is contained in one file, by example for the day 1, you can just run
+Each puzzle is contained in one file, by example for the day 1, you can just run
 ```bash
 java src/main/java/AdventOfCode01.java
 ```
