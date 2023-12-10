@@ -11,8 +11,8 @@ public class AdventOfCode09 {
         .mapToInt(history -> Stream.iterate(history,
               h -> !h.stream().allMatch(v -> v == 0),
               h -> range(1, h.size()).mapToObj(i -> h.get(i) - h.get(i - 1)).toList())
-              .mapToInt(List::getLast)
-              .sum())
+            .mapToInt(List::getLast)
+            .sum())
         .sum();
   }
 
