@@ -12,7 +12,7 @@ public class AdventOfCode12 {
     }
     var prefix = line.substring(0, index);
     var suffix = index == line.length() - 1 ? "" : line.substring(index + 1);
-    return combination( prefix + "." + suffix, damages) + combination(prefix + "#" + suffix, damages);
+    return combination(prefix + "." + suffix, damages) + combination(prefix + "#" + suffix, damages);
   }
 
   static int sumOfCombinations(String input) {
