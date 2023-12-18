@@ -46,7 +46,7 @@ public class AdventOfCode17 {
       if (x == width - 1 && y == height - 1) {
         continue;
       }
-      for(Dir nextDir : dir.next()) {
+      for(var nextDir : dir.next()) {
         if (nextDir == dir && dist == 3) {
           continue;
         }
