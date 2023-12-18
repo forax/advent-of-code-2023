@@ -27,7 +27,7 @@ public class AdventOfCode17 {
     var height = grid.length;
     record Walk(int x, int y, Dir dir, int dist) {}
     record Work(int x, int y, Dir dir, int dist, int heat) {}
-    var queue = new PriorityQueue<Work>(Comparator.comparing(Work::heat));
+    var queue = new PriorityQueue<>(Comparator.comparing(Work::heat));
     queue.offer(new Work(0, 0, Dir.EAST, 0, 0));
     var heatMap = new HashMap<Walk, Integer>();
     while(!queue.isEmpty()) {
