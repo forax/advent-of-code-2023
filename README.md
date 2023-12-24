@@ -31,6 +31,7 @@ java src/main/java/AdventOfCode01.java
 - [Day 20](https://adventofcode.com/2023/day/20) [AdventOfCode20.java](src/main/java/AdventOfCode20.java)
 - [Day 21](https://adventofcode.com/2023/day/21) [AdventOfCode21.java](src/main/java/AdventOfCode21.java)
 - [Day 22](https://adventofcode.com/2023/day/22) [AdventOfCode22.java](src/main/java/AdventOfCode22.java)
+- [Day 23](https://adventofcode.com/2023/day/23) [AdventOfCode23.java](src/main/java/AdventOfCode23.java)
 
 Each code will be published the day after.
 
